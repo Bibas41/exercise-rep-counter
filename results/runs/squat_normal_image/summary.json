@@ -1,0 +1,79 @@
+{
+  "exercise": "Squat",
+  "signal": "knee angle (hip-knee-ankle)",
+  "thresholds": {
+    "extended": 160,
+    "flexed": 100,
+    "partial_attempt": 140,
+    "min_rep_seconds": 0.6
+  },
+  "side": "auto",
+  "counts": {
+    "auto": 8
+  },
+  "total_reps": 8,
+  "partial_reps": 1,
+  "rejected_too_fast": 0,
+  "naive_baseline_reps": 11,
+  "frames": 655,
+  "missing_or_low_confidence_pct": 10.2,
+  "duration_s": 26.32,
+  "reps": [
+    {
+      "side": "auto",
+      "number": 1,
+      "start_s": 4.06,
+      "end_s": 5.55,
+      "min_angle": 35.2
+    },
+    {
+      "side": "auto",
+      "number": 2,
+      "start_s": 6.48,
+      "end_s": 8.09,
+      "min_angle": 39.2
+    },
+    {
+      "side": "auto",
+      "number": 3,
+      "start_s": 8.89,
+      "end_s": 10.62,
+      "min_angle": 40.2
+    },
+    {
+      "side": "auto",
+      "number": 4,
+      "start_s": 11.35,
+      "end_s": 12.88,
+      "min_angle": 41.9
+    },
+    {
+      "side": "auto",
+      "number": 5,
+      "start_s": 13.6,
+      "end_s": 15.21,
+      "min_angle": 36.3
+    },
+    {
+      "side": "auto",
+      "number": 6,
+      "start_s": 15.9,
+      "end_s": 17.35,
+      "min_angle": 47.6
+    },
+    {
+      "side": "auto",
+      "number": 7,
+      "start_s": 18.03,
+      "end_s": 19.6,
+      "min_angle": 53.7
+    },
+    {
+      "side": "auto",
+      "number": 8,
+      "start_s": 20.28,
+      "end_s": 21.89,
+      "min_angle": 60.0
+    }
+  ]
+}

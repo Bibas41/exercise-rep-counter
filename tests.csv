@@ -1,0 +1,20 @@
+file,exercise,side,coords,expected,expected_partial,category,description
+data/synthetic/curl_clean.csv,curl,left,image,10,0,Synthetic,10 clean curls at normal speed
+data/synthetic/curl_fast.csv,curl,left,image,10,0,Synthetic,10 fast curls (0.8 s each)
+data/synthetic/curl_slow_pauses.csv,curl,left,image,6,0,Synthetic,6 slow curls with pauses at the top and bottom
+data/synthetic/curl_partial.csv,curl,left,image,5,3,Synthetic,5 full curls and 3 partial curls
+data/synthetic/curl_noisy.csv,curl,left,image,8,0,Synthetic,8 curls with strong landmark noise
+data/synthetic/curl_missing.csv,curl,left,image,8,0,Synthetic,8 curls with 15% dropped frames and a 1.2 s gap during rep 4
+data/synthetic/curl_glitches.csv,curl,left,image,6,0,Synthetic,6 curls with 3 short tracking glitches
+data/synthetic/squat_clean.csv,squat,left,image,8,0,Synthetic,8 clean squats
+data/synthetic/squat_shallow.csv,squat,left,image,3,3,Synthetic,3 deep squats and 3 shallow squats
+data/synthetic/pushup_clean.csv,pushup,left,image,6,0,Synthetic,6 push-ups
+data/synthetic/no_person.csv,curl,auto,image,0,0,Synthetic,4 seconds with no person in the frame
+videos/curl_normal.mp4,curl,auto,image,10,0,Real video,10 curls side view normal speed
+videos/curl_fast.mp4,curl,auto,image,10,0,Real video,10 fast curls side view
+videos/curl_partial.mp4,curl,auto,image,5,3,Real video,5 full and 3 half curls side view
+videos/curl_front.mp4,curl,auto,image,8,0,Real video - difficult angle,8 curls facing the camera (2D angle)
+videos/curl_occluded.mp4,curl,auto,image,8,0,Real video - difficult,8 curls with the arm leaving the frame twice
+videos/squat_normal.mp4,squat,auto,image,8,0,Real video,8 squats side view full body
+videos/squat_shallow.mp4,squat,auto,image,4,4,Real video,4 deep and 4 shallow squats side view
+data/recorded/webcam_curl.csv,curl,auto,image,25,0,Real webcam,25 curls in front of the laptop webcam

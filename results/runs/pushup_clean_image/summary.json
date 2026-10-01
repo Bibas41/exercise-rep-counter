@@ -1,0 +1,65 @@
+{
+  "exercise": "Push-up",
+  "signal": "elbow angle (shoulder-elbow-wrist)",
+  "thresholds": {
+    "extended": 150,
+    "flexed": 90,
+    "partial_attempt": 130,
+    "min_rep_seconds": 0.5
+  },
+  "side": "left",
+  "counts": {
+    "left": 6
+  },
+  "total_reps": 6,
+  "partial_reps": 0,
+  "rejected_too_fast": 0,
+  "naive_baseline_reps": 6,
+  "frames": 378,
+  "missing_or_low_confidence_pct": 0.0,
+  "duration_s": 12.57,
+  "reps": [
+    {
+      "side": "left",
+      "number": 1,
+      "start_s": 0.6,
+      "end_s": 1.9,
+      "min_angle": 76.2
+    },
+    {
+      "side": "left",
+      "number": 2,
+      "start_s": 2.7,
+      "end_s": 4.0,
+      "min_angle": 76.2
+    },
+    {
+      "side": "left",
+      "number": 3,
+      "start_s": 4.8,
+      "end_s": 6.1,
+      "min_angle": 76.2
+    },
+    {
+      "side": "left",
+      "number": 4,
+      "start_s": 6.9,
+      "end_s": 8.2,
+      "min_angle": 76.2
+    },
+    {
+      "side": "left",
+      "number": 5,
+      "start_s": 9.0,
+      "end_s": 10.3,
+      "min_angle": 76.2
+    },
+    {
+      "side": "left",
+      "number": 6,
+      "start_s": 11.1,
+      "end_s": 12.4,
+      "min_angle": 76.2
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "exercise": "Bicep curl",
+  "signal": "elbow angle (shoulder-elbow-wrist)",
+  "thresholds": {
+    "extended": 150,
+    "flexed": 60,
+    "partial_attempt": 120,
+    "min_rep_seconds": 0.5
+  },
+  "side": "auto",
+  "counts": {
+    "auto": 0
+  },
+  "total_reps": 0,
+  "partial_reps": 0,
+  "rejected_too_fast": 0,
+  "naive_baseline_reps": 0,
+  "frames": 120,
+  "missing_or_low_confidence_pct": 100.0,
+  "duration_s": 3.97,
+  "reps": []
+}

@@ -1,0 +1,9 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+models/
+outputs/
+videos/
+results/runs/*_nosmooth/
+results/runs/*_world/

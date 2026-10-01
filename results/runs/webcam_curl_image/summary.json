@@ -1,0 +1,198 @@
+{
+  "exercise": "Bicep curl",
+  "signal": "elbow angle (shoulder-elbow-wrist)",
+  "thresholds": {
+    "extended": 150,
+    "flexed": 60,
+    "partial_attempt": 120,
+    "min_rep_seconds": 0.5
+  },
+  "side": "auto",
+  "counts": {
+    "auto": 25
+  },
+  "total_reps": 25,
+  "partial_reps": 0,
+  "rejected_too_fast": 0,
+  "naive_baseline_reps": 25,
+  "frames": 996,
+  "missing_or_low_confidence_pct": 1.0,
+  "duration_s": 67.94,
+  "reps": [
+    {
+      "side": "auto",
+      "number": 1,
+      "start_s": 11.19,
+      "end_s": 12.39,
+      "min_angle": 14.6
+    },
+    {
+      "side": "auto",
+      "number": 2,
+      "start_s": 13.33,
+      "end_s": 14.47,
+      "min_angle": 17.9
+    },
+    {
+      "side": "auto",
+      "number": 3,
+      "start_s": 15.39,
+      "end_s": 16.86,
+      "min_angle": 20.2
+    },
+    {
+      "side": "auto",
+      "number": 4,
+      "start_s": 17.78,
+      "end_s": 19.19,
+      "min_angle": 21.1
+    },
+    {
+      "side": "auto",
+      "number": 5,
+      "start_s": 20.0,
+      "end_s": 21.39,
+      "min_angle": 23.8
+    },
+    {
+      "side": "auto",
+      "number": 6,
+      "start_s": 22.2,
+      "end_s": 23.55,
+      "min_angle": 22.9
+    },
+    {
+      "side": "auto",
+      "number": 7,
+      "start_s": 24.53,
+      "end_s": 25.94,
+      "min_angle": 22.3
+    },
+    {
+      "side": "auto",
+      "number": 8,
+      "start_s": 26.8,
+      "end_s": 28.16,
+      "min_angle": 27.4
+    },
+    {
+      "side": "auto",
+      "number": 9,
+      "start_s": 29.0,
+      "end_s": 30.41,
+      "min_angle": 24.6
+    },
+    {
+      "side": "auto",
+      "number": 10,
+      "start_s": 31.2,
+      "end_s": 32.75,
+      "min_angle": 21.3
+    },
+    {
+      "side": "auto",
+      "number": 11,
+      "start_s": 33.61,
+      "end_s": 35.02,
+      "min_angle": 24.7
+    },
+    {
+      "side": "auto",
+      "number": 12,
+      "start_s": 36.0,
+      "end_s": 37.5,
+      "min_angle": 23.4
+    },
+    {
+      "side": "auto",
+      "number": 13,
+      "start_s": 38.45,
+      "end_s": 39.97,
+      "min_angle": 26.2
+    },
+    {
+      "side": "auto",
+      "number": 14,
+      "start_s": 40.97,
+      "end_s": 42.38,
+      "min_angle": 19.5
+    },
+    {
+      "side": "auto",
+      "number": 15,
+      "start_s": 43.23,
+      "end_s": 44.58,
+      "min_angle": 21.9
+    },
+    {
+      "side": "auto",
+      "number": 16,
+      "start_s": 45.39,
+      "end_s": 46.78,
+      "min_angle": 20.5
+    },
+    {
+      "side": "auto",
+      "number": 17,
+      "start_s": 47.58,
+      "end_s": 49.12,
+      "min_angle": 23.0
+    },
+    {
+      "side": "auto",
+      "number": 18,
+      "start_s": 49.8,
+      "end_s": 51.11,
+      "min_angle": 23.9
+    },
+    {
+      "side": "auto",
+      "number": 19,
+      "start_s": 51.91,
+      "end_s": 53.39,
+      "min_angle": 21.8
+    },
+    {
+      "side": "auto",
+      "number": 20,
+      "start_s": 54.19,
+      "end_s": 55.45,
+      "min_angle": 25.3
+    },
+    {
+      "side": "auto",
+      "number": 21,
+      "start_s": 56.31,
+      "end_s": 57.66,
+      "min_angle": 27.2
+    },
+    {
+      "side": "auto",
+      "number": 22,
+      "start_s": 58.38,
+      "end_s": 59.84,
+      "min_angle": 28.1
+    },
+    {
+      "side": "auto",
+      "number": 23,
+      "start_s": 60.78,
+      "end_s": 62.12,
+      "min_angle": 29.3
+    },
+    {
+      "side": "auto",
+      "number": 24,
+      "start_s": 62.92,
+      "end_s": 64.3,
+      "min_angle": 29.9
+    },
+    {
+      "side": "auto",
+      "number": 25,
+      "start_s": 65.22,
+      "end_s": 66.77,
+      "min_angle": 31.7
+    }
+  ]
+}

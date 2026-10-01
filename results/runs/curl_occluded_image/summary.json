@@ -1,0 +1,79 @@
+{
+  "exercise": "Bicep curl",
+  "signal": "elbow angle (shoulder-elbow-wrist)",
+  "thresholds": {
+    "extended": 150,
+    "flexed": 60,
+    "partial_attempt": 120,
+    "min_rep_seconds": 0.5
+  },
+  "side": "auto",
+  "counts": {
+    "auto": 8
+  },
+  "total_reps": 8,
+  "partial_reps": 1,
+  "rejected_too_fast": 0,
+  "naive_baseline_reps": 12,
+  "frames": 839,
+  "missing_or_low_confidence_pct": 24.0,
+  "duration_s": 33.73,
+  "reps": [
+    {
+      "side": "auto",
+      "number": 1,
+      "start_s": 1.97,
+      "end_s": 3.38,
+      "min_angle": 40.8
+    },
+    {
+      "side": "auto",
+      "number": 2,
+      "start_s": 3.9,
+      "end_s": 5.23,
+      "min_angle": 39.4
+    },
+    {
+      "side": "auto",
+      "number": 3,
+      "start_s": 5.8,
+      "end_s": 7.36,
+      "min_angle": 39.7
+    },
+    {
+      "side": "auto",
+      "number": 4,
+      "start_s": 16.14,
+      "end_s": 17.39,
+      "min_angle": 45.7
+    },
+    {
+      "side": "auto",
+      "number": 5,
+      "start_s": 17.91,
+      "end_s": 19.08,
+      "min_angle": 44.4
+    },
+    {
+      "side": "auto",
+      "number": 6,
+      "start_s": 19.64,
+      "end_s": 20.97,
+      "min_angle": 42.9
+    },
+    {
+      "side": "auto",
+      "number": 7,
+      "start_s": 27.53,
+      "end_s": 28.74,
+      "min_angle": 42.9
+    },
+    {
+      "side": "auto",
+      "number": 8,
+      "start_s": 29.38,
+      "end_s": 30.75,
+      "min_angle": 41.2
+    }
+  ]
+}
