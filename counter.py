@@ -239,8 +239,11 @@ def process_video(source, exercise, side="auto", smoothing=0.4, min_visibility=0
                     writer = cv2.VideoWriter(str(out_dir / "annotated.mp4"),
                                              cv2.VideoWriter_fourcc(*"mp4v"), fps, (w, h))
                 writer.write(img)
-            if show:
-                cv2.imshow("Exercise Rep Counter (q = quit)", img)
+            if show:  # shrink large videos so the whole frame fits on the screen
+                h0, w0 = img.shape[:2]
+                scale = min(1.0, 1280 / w0, 720 / h0)
+                view = cv2.resize(img, (int(w0 * scale), int(h0 * scale))) if scale < 1 else img
+                cv2.imshow("Exercise Rep Counter (q = quit)", view)
                 if cv2.waitKey(1) & 0xFF in (ord("q"), 27):
                     break
     finally:
