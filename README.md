@@ -3,7 +3,7 @@
 Mini-project for **Applied AI Programming (TX00FM14)**, Metropolia University of Applied Sciences  
 Author: **Bibas Dhital**
 
-**Demo video:** ADD-YOUTUBE-LINK-HERE
+**Demo video:** https://youtu.be/-fgGx6li6Sw
 
 A Python application that counts exercise repetitions from a **video file, a webcam or a landmark
 sequence**. It detects body landmarks with **MediaPipe Pose Landmarker**, calculates a **joint angle**
